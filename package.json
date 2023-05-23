@@ -2,6 +2,10 @@
   "name": "academia-sportvip",
   "version": "0.1.0",
   "private": true,
+  "engines": {
+    "node": "16.20.0",
+    "npm": "8.19.4"
+  },  
   "dependencies": {
     "@emotion/core": "^10.0.28",
     "@react-google-maps/api": "^2.18.1",
