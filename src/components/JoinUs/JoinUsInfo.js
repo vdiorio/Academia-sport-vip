@@ -6,10 +6,9 @@ const JoinUsInfo = ({ title }) => (
   <div css={styles} className="cardInfo">
     <h2>{title}</h2>
     <p>
-      There are many variations of passages of lorem Ipsum available, but the
-      majority have suffered alteration.
+      Transforme sua vida e conquiste a forma física que você sempre desejou. Supere as barreiras e desafios que surgem ao longo do caminho em direção à saúde e bem-estar. Diga adeus às limitações físicas e abrace uma jornada de transformação e superação pessoal. Junte-se a nós e liberte todo o seu potencial para desfrutar de uma vida vibrante e cheia de possibilidades.
     </p>
-    <Button text="JOIN NOW" />
+    <Button text="Agende sua matrícula" />
   </div>
 );
 
@@ -35,8 +34,8 @@ const styles = css`
   .btn {
     &:hover {
       background: transparent;
-      color: #ff1414;
-      border: 1px solid #ff1414;
+      color: #00FF00;
+      border: 1px solid #00FF00;
     }
   }
 `;

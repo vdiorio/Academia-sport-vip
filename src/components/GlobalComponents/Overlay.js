@@ -11,7 +11,7 @@ const styles = css`
   left: 0;
   background: radial-gradient(
     ellipse at center,
-    rgba(181, 8, 8, 0.38) 0%,
+    rgba(0, 158, 96, 0.20) 0%,
     rgba(0, 0, 0, 0.6) 100%
   );
 `;

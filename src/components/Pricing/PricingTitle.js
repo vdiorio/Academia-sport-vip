@@ -1,10 +1,10 @@
 /** @jsx jsx */
 import { jsx, css } from "@emotion/core";
 
-const PricingTitle = ({ level }) => (
+const PricingTitle = ({ level, price, avulso }) => (
   <div css={styles} className="pricingTitle">
     <h3>{level}</h3>
-    <h5>$45/m</h5>
+    <h5>R${price}/{avulso ? "dia" : "mês"}</h5>
   </div>
 );
 
@@ -17,7 +17,7 @@ const styles = css`
     line-height: 1;
   }
   h5 {
-    color: #ff1414;
+    color: #00FF00;
     font-size: 26px;
     margin: 14px 0 0 0;
     line-height: 1;

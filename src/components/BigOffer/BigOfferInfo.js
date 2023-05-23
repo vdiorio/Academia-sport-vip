@@ -5,14 +5,13 @@ import Button from "../GlobalComponents/Button";
 const BigOfferInfo = () => (
   <div css={styles} className="info">
     <h3>
-      A BIG OFFER FOR <br /> THIS SUMMER
+      ESCOLHA NOSSO PLANO<br /> ANUAL E GANHE ATÉ
     </h3>
-    <h2>50% Off</h2>
+    <h2>40% Off</h2>
     <p>
-      There are many variations of passages of lorem Ipsum available, <br /> but
-      the majority have suffered alteration.
+      Pague em até 12x<br/>Consulte nossos preços e venha visitar a academia.
     </p>
-    <Button text="JOIN NOW" />
+    <Button text="Agende sua matrícula" />
   </div>
 );
 
@@ -29,7 +28,7 @@ const styles = css`
     font-size: 80px;
     font-weight: 500;
     line-height: 1;
-    color: #ff1414;
+    color: #00FF00;
     margin: 20px 0 24px 0;
   }
   p {
@@ -39,8 +38,8 @@ const styles = css`
     margin: 40px 0 0 0;
     &:hover {
       background: transparent;
-      color: #ff1414;
-      border: 1px solid #ff1414;
+      color: #00FF00;
+      border: 1px solid #00FF00;
     }
   }
   @media (max-width: 800px) {

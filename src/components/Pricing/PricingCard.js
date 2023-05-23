@@ -3,27 +3,29 @@ import { jsx, css } from "@emotion/core";
 import PricingTitle from "./PricingTitle";
 import PricingInfo from "./PricingInfo";
 
-const PricingCard = ({ level }) => (
+const PricingCard = ({ level, price, avulso }) => (
   <div css={styles} className="pricingCard">
-    <PricingTitle level={level} />
+    <PricingTitle level={level} price={price} avulso={avulso} />
     <PricingInfo />
   </div>
 );
 
 const styles = css`
-  width: 100%;
-  max-width: 32%;
-  padding: 40px 0;
+  width: 30%;
+  max-width: 80%;
+  padding: 40px 10px;
   background: #1a1a1a;
   border: 1px solid transparent;
+  border-radius: 10px;
   text-align: center;
   cursor: pointer;
   transition: border 600ms ease-in-out;
   &:hover {
-    border: 1px solid #ff1414;
+    border: 1px solid #00FF00;
   }
   @media (max-width: 799px) {
-    max-width: 520px;
+    min-width: 328px;
+    width: 80% !important;
     margin-bottom: 26px;
   }
   @media(min-width: 800px) and (max-width: 1189px) {

@@ -1,11 +1,11 @@
 /** @jsx jsx */
 import { jsx, css } from "@emotion/core";
-import ImgOverlay from "../GlobalComponents/ImgOverlay";
+import Overlay from "../GlobalComponents/Overlay";
 import JoinUsInfo from "./JoinUsInfo";
 
 const JoinUsCard = ({ title }) => (
   <div css={styles} className="card">
-    <ImgOverlay />
+    <Overlay />
     <JoinUsInfo title={title} />
   </div>
 );

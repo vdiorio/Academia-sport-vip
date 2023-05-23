@@ -7,14 +7,15 @@ import PricingCard from "./PricingCard";
 const Pricing = () => (
   <section css={styles} className="pricing" id="pricing">
     <Title
-      title="OUR PRICING"
-      desc="There are many variations of passages of lorem Ipsum available, but the majority
-        have suffered alteration."
+      title="NOSSOS PREÇOS"
+      desc="Tentamos manter a academia acessível, nosso principal objetivo é a sua saude."
     />
     <Container>
-      <PricingCard level="BEGINNER" />
-      <PricingCard level="EXPERT" />
-      <PricingCard level="PRO" />
+      <PricingCard level="Treino Avulso" price="15" avulso />
+      <PricingCard level="MENSAL" price="90" />
+      <PricingCard level="TRIMESTRAL" price="75" />
+      <PricingCard level="SEMESTRAL" price="60" />
+      <PricingCard level="ANUAL" price="55" />
     </Container>
   </section>
 );
@@ -25,8 +26,11 @@ const styles = css`
   background: #000;
   .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     padding: 80px 0 0 0;
+    gap: 1vw;
+    width: 90% !important;
   }
   @media (max-width: 650px) {
     .title {

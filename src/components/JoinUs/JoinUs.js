@@ -8,8 +8,8 @@ import ForBoysBg from "../Images/forBoys.png";
 const JoinUs = () => (
   <section css={styles} className="joinUs" id="blog">
     <Container>
-      <JoinUsCard title="FOR GIRL" />
-      <JoinUsCard title="FOR BOYS" />
+      <JoinUsCard title="PARA MULHERES" />
+      <JoinUsCard title="PARA HOMENS" />
     </Container>
   </section>
 );
@@ -21,16 +21,14 @@ const styles = css`
     display: flex;
     .card {
       background: url('${ForGirlBg}') no-repeat center/cover;
-      background-size: 100% 100%;
       transition: all 300ms ease-in-out;
       &:hover {
-        background-size: 105% 105%;
+        border: solid 1px #00FF00;
       }
       &:last-of-type {
         background: url('${ForBoysBg}') no-repeat center/cover;
-        background-size: 100% 100%;
         &:hover{
-            background-size: 105% 105%;
+            border: solid 1px #00FF00;
         }
       }
     }

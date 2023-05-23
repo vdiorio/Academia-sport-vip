@@ -18,8 +18,9 @@ const Main = () => (
 
 const styles = css`
   width: 100%;
-  min-height: 96vh;
+  min-height: 100vh;
   background: url('${mainBgOne}') no-repeat center/cover;
+  background-attachment:fixed;
   display: flex;
   position: relative;
   .container {

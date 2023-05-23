@@ -3,13 +3,11 @@ import { jsx, css } from "@emotion/core";
 
 const Menu = ({ openMenu }) => (
   <div css={styles} className={openMenu ? "menu" : "hidden"}>
-    <a href="#home">home</a>
-    <a href="#about">about</a>
-    <a href="#pricing">pricing</a>
-    <a href="#gallery">gallery</a>
-    <a href="#pages">pages</a>
-    <a href="#blog">blog</a>
-    <a href="#contact">contact</a>
+    <a href="#home">inicio</a>
+    <a href="#about">sobre</a>
+    <a href="#pricing">preços</a>
+    <a href="#gallery">galeria</a>
+    <a href="#contact">contato</a>
   </div>
 );
 
@@ -27,7 +25,7 @@ const styles = css`
     &::after {
       position: absolute;
       content: "";
-      background: #ff1414;
+      background: #009e60;
       width: 100%;
       height: 3px;
       bottom: -33px;
@@ -36,7 +34,7 @@ const styles = css`
       transition: opacity 700ms ease-in-out;
     }
     &:hover {
-      color: #ff1414;
+      color: #009e60;
       &::after {
         opacity: 1;
       }

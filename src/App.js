@@ -5,10 +5,8 @@ import JoinUs from "./components/JoinUs/JoinUs";
 import Features from "./components/Features/Features";
 import BigOffer from "./components/BigOffer/BigOffer";
 import Pricing from "./components/Pricing/Pricing";
-import Gallery from "./components/Gallery/Gallery";
-import Trainers from "./components/Trainers/Trainers";
-import BannerOffer from "./components/BannerOffer/BannerOffer";
 import Footer from "./components/Footer/Footer";
+import Map from "./components/Map/Map.js"
 
 const App = () => {
   return (
@@ -18,9 +16,7 @@ const App = () => {
       <Features />
       <BigOffer />
       <Pricing />
-      <Gallery />
-      <Trainers />
-      <BannerOffer />
+      <Map />
       <Footer />
     </div>
   );

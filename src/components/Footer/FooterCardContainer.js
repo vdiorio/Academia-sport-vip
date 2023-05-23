@@ -1,38 +1,24 @@
 /** @jsx jsx */
 import { jsx, css } from "@emotion/core";
-import Button from "../GlobalComponents/Button";
 
 const FooterCardContainer = () => (
   <div className="wrap" css={styles}>
     <div className="footerCard">
-      <h2>Gym</h2>
-      <p>5th flora, 700/D kings road, green lane New York-1782</p>
-      <a href="#/">+10 367 826 2567</a>
-      <a href="#/">contact@carpenter.com</a>
+      <h2>Academia</h2>
+      <p>Rua Antônio da Silva Esparrinha, 533<br/>CENTRO - CAJAMAR - SP</p>
+      <a href="#/">11 97361-6205</a>
+      <a href="mailto:atendimento@academiasportvip.com.br">atendimento@academiasportvip.com.br</a>
       <div className="footerSocials">
-        <i className="fab fa-facebook-f"></i>
-        <i className="fab fa-twitter"></i>
-        <i className="fab fa-instagram"></i>
-        <i className="fab fa-pinterest"></i>
-        <i className="fab fa-youtube"></i>
+        <a href="https://www.facebook.com/academiasportvip/"><i className="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/sportvipacademia/"><i className="fab fa-instagram"></i></a>
       </div>
     </div>
     <div className="footerCard">
-      <h2>Useful Links</h2>
-      <a href="#/">Pricing</a>
-      <a href="#/">About</a>
-      <a href="#/">Gallery</a>
-      <a href="#/">Contact</a>
-    </div>
-    <div className="footerCard">
-      <h2>Subscribe</h2>
-      <div className="inputWrap">
-        <input type="email" placeholder="Enter your mail" />
-        <Button text="Subscribe" />
-      </div>
-      <p>
-        Esteem spirit temper too say adieus who direct esteem esteems luckily.
-      </p>
+      <h2>Links</h2>
+      <a href="#pricing">Preços</a>
+      <a href="#about">Sobre</a>
+      <a href="#gallery">Galeria</a>
+      <a href="https://whatsa.me/5511973616205">Contato</a>
     </div>
   </div>
 );
@@ -65,7 +51,7 @@ const styles = css`
     h2 {
       font-size: 24px;
       margin-bottom: 40px;
-      color: #ff1414;
+      color: #009e60;
     }
     p {
       line-height: 1.5;
@@ -78,7 +64,7 @@ const styles = css`
       margin-bottom: 8px;
       transition: color 600ms ease-in-out;
       &:hover {
-        color: #ff1414;
+        color: #009e60;
       }
     }
     .footerSocials {
@@ -91,7 +77,7 @@ const styles = css`
         cursor: pointer;
         transition: color 600ms ease-in-out;
         &:hover {
-          color: #ff1414;
+          color: #009e60;
         }
       }
     }

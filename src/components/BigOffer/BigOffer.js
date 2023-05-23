@@ -20,7 +20,8 @@ const styles = css`
     display: flex;
     justify-content: flex-end;
   }
-  @media(max-width: 800px) {
+  @media(max-width: 1250px) {
+    background: url('${offerBg}') no-repeat left/cover;
     .container{
       justify-content: center;
       max-width: 90%;

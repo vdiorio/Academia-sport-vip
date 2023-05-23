@@ -4,11 +4,10 @@ import Button from "../GlobalComponents/Button";
 
 const PricingInfo = () => (
   <div css={styles} className="pricingInfo">
-    <p>24h unlimited access</p>
-    <p>Trainer Advice</p>
-    <p>Locker + Bathroom</p>
-    <p>Personal trainer</p>
-    <Button text="JOIN NOW" />
+    <p>Acesso ilimitado</p>
+    <p>Suporte do treinador</p>
+    <p>Armario + Banheiro</p>
+    <Button text="AGENDE SUA MATRÍCULA" />
   </div>
 );
 
@@ -27,8 +26,8 @@ const styles = css`
     margin: 20px 0 0 0;
     &:hover {
       background: transparent;
-      color: #ff1414;
-      border: 1px solid #ff1414;
+      color: #00FF00;
+      border: 1px solid #00FF00;
     }
   }
 `;

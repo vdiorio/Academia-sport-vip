@@ -8,14 +8,14 @@ const Footer = () => (
     <FooterCardContainer />
     <Container>
       <p>
-        Copyright &copy;2020 All rights reserved | This template is made with{" "}
-        <i className="far fa-heart"></i> by{" "}
+        Copyright &copy;2023 Todos os direitos | Site criado com {" "}
+        <i className="far fa-heart"></i> por{" "}
         <a
-          href="https://colorlib.com/"
+          href="https://vdiorio.github.io/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Colorlib
+          Vitor Diorio
         </a>
       </p>
     </Container>
@@ -33,7 +33,7 @@ const styles = css`
       color: #aab1b7;
       a {
         text-decoration: none;
-        color: #ff1414;
+        color: #009e60;
       }
     }
   }

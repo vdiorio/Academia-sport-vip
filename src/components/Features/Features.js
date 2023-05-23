@@ -11,15 +11,14 @@ import IconFour from "../Images/iconFour.svg";
 const Features = () => (
   <section css={styles} className="features" id="about">
     <Title
-      title="OUR FEATURES"
-      desc="There are many variations of passages of lorem Ipsum available, but the majority
-        have suffered alteration."
+      title="NOSSOS SERVIÇOS"
+      desc="Mantemos nossas máquinas atualizadas e preparadas para atender sua necessidade de musculação."
     />
     <Container>
-      <FeaturesCard cardImg={IconOne} cardTitle="Weightlifting" />
-      <FeaturesCard cardImg={IconTwo} cardTitle="Specific Muscles" />
-      <FeaturesCard cardImg={IconThree} cardTitle="Flex Your Muscles" />
-      <FeaturesCard cardImg={IconFour} cardTitle="Cardio Exercises" />
+      <FeaturesCard cardImg={IconOne} cardTitle={0} />
+      <FeaturesCard cardImg={IconTwo} cardTitle={1} />
+      <FeaturesCard cardImg={IconThree} cardTitle={2} />
+      <FeaturesCard cardImg={IconFour} cardTitle={3} />
     </Container>
   </section>
 );

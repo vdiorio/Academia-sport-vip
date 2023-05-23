@@ -9,7 +9,6 @@ const Container = ({ children }) => (
 
 const styles = css`
   width: 100%;
-  max-width: 1140px;
   margin: 0 auto;
 `;
 

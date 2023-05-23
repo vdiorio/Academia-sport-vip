@@ -14,7 +14,7 @@ const Nav = () => {
       <Container>
         <Logo />
         <Menu openMenu={openMenu} />
-        <Button text="join us" />
+        <Button text="Entre em contato" />
         <i
           onClick={() => setOpenMenu(!openMenu)}
           id="burgerMenu"
@@ -38,7 +38,12 @@ const styles = css`
     align-items: center;
     justify-content: space-between;
     .logo {
+      box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
       cursor: pointer;
+      width: 100px;
+      border-radius: 50%;
     }
     #burgerMenu {
       cursor: pointer;

@@ -1,11 +1,20 @@
 /** @jsx jsx */
 import { jsx, css } from "@emotion/core";
 
+const textP = {
+  "Levantamento de peso": "Supere seus limites e defina seu corpo com o levantamento de peso.",
+  "Aeróbico": "Queime calorias e aumente sua energia com exercícios aeróbicos intensos.",
+  "Musculação": "Ganhe massa muscular e transforme sua aparência com a musculação.",
+  "Cardio": "Melhore seu condicionamento físico e fortaleça seu coração com exercícios cardio.",
+}
+
+const textTitle = Object.keys(textP);
+
 const FeaturesCard = ({ cardImg, cardTitle }) => (
   <div css={styles} className="featuresCard">
     <img src={cardImg} alt="icon" />
-    <h3>{cardTitle}</h3>
-    <p>There are many variations of passages of lorem Ipsum available.</p>
+    <h3>{textTitle[cardTitle]}</h3>
+    <p>{textP[textTitle[cardTitle]]}</p>
   </div>
 );
 

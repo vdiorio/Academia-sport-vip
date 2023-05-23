@@ -4,10 +4,10 @@ import Button from "../GlobalComponents/Button";
 
 const MainInfo = () => (
   <div css={styles} className="mainInfo">
-    <h3>Build Up Your</h3>
-    <h1>Body Shape</h1>
-    <p>Build Your Body and Fitness with Professional Touch</p>
-    <Button text="JOIN US" />
+    <h3>Construa seu</h3>
+    <h1>Corpo dos sonhos</h1>
+    <p>Aprimore seu corpo e condicionamento físico com um toque profissional.</p>
+    <Button text="Agende sua matrícula" />
   </div>
 );
 
@@ -19,7 +19,7 @@ const styles = css`
     text-transform: uppercase;
   }
   h1 {
-    font-size: 150px;
+    font-size: 100px;
     font-weight: 900;
     line-height: 1;
     margin: 24px 0;
@@ -33,8 +33,8 @@ const styles = css`
     padding: 15px 50px;
     &:hover {
       background: transparent;
-      color: #ff1414;
-      border: 1px solid #ff1414;
+      color: #75d4ab;
+      border: 1px solid #75d4ab;
     }
   }
   @media (max-width: 640px) {
