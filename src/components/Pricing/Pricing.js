@@ -12,10 +12,10 @@ const Pricing = () => (
     />
     <Container>
       <PricingCard level="Treino Avulso" price="15" avulso />
-      <PricingCard level="MENSAL" price="90" />
-      <PricingCard level="TRIMESTRAL" price="75" />
-      <PricingCard level="SEMESTRAL" price="60" />
-      <PricingCard level="ANUAL" price="55" />
+      <PricingCard level="MENSAL" price="85" />
+      <PricingCard level="TRIMESTRAL" price="180" />
+      <PricingCard level="SEMESTRAL" price="370" />
+      <PricingCard level="ANUAL" price="680" />
     </Container>
   </section>
 );

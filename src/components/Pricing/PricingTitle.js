@@ -4,7 +4,8 @@ import { jsx, css } from "@emotion/core";
 const PricingTitle = ({ level, price, avulso }) => (
   <div css={styles} className="pricingTitle">
     <h3>{level}</h3>
-    <h5>R${price}/{avulso ? "dia" : "mês"}</h5>
+    <h5>R${price}</h5>
+    {price === '85' && <p style={{color: 'red'}}>12% de desconto no PIX</p>}
   </div>
 );
 
