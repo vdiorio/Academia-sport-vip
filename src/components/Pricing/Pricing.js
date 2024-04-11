@@ -3,6 +3,7 @@ import { jsx, css } from "@emotion/core";
 import Title from "../GlobalComponents/Title";
 import Container from "../GlobalComponents/Container";
 import PricingCard from "./PricingCard";
+import { precos } from '../../PlanosPrecos'
 
 const Pricing = () => (
   <section css={styles} className="pricing" id="pricing">
@@ -11,11 +12,9 @@ const Pricing = () => (
       desc="Tentamos manter a academia acessível, nosso principal objetivo é a sua saude."
     />
     <Container>
-      <PricingCard level="Treino Avulso" price="15" avulso />
-      <PricingCard level="MENSAL" price="85" />
-      <PricingCard level="TRIMESTRAL" price="180" />
-      <PricingCard level="SEMESTRAL" price="370" />
-      <PricingCard level="ANUAL" price="680" />
+      {precos.map((plan, i) => (
+        <PricingCard level={plan.name} price={plan.price} avulso={i === 0} />
+      ))}
     </Container>
   </section>
 );
